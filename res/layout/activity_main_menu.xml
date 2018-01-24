@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="rcoleman.rasmussencollege.com.warera.MainMenu">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:background="#ffffff"
+        ads:srcCompat="@drawable/gametitle"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="-25dp"
+        android:layout_weight="0.03" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="271dp">
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#ffffff"
+        android:layout_gravity="center"
+        ads:srcCompat="@drawable/pgbutton" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        ads:srcCompat="@drawable/grbutton" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        ads:srcCompat="@drawable/gibutton" />
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="204dp"
+        android:layout_height="76dp"
+        android:layout_gravity="right"
+        ads:srcCompat="@drawable/tankimage"
+        android:layout_weight="0.47" />
+
+</LinearLayout>

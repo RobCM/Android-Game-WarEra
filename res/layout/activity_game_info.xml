@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="rcoleman.rasmussencollege.com.warera.GameInfo">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:background="#ffffff"
+        ads:srcCompat="@drawable/gametitle"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="-25dp"
+        android:layout_weight="0.03" />
+
+    <ImageButton
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:background="#ffffff"
+        ads:srcCompat="@drawable/menubutton"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="This application is developed by Robert Coleman for Jason McGoff’s N360/DIG3794 Section 01 Mobile Platform Development - Online - 2017 Fall Quarter"
+        android:textColor="#8c8b8b"
+        />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_weight="0.25">
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="204dp"
+        android:layout_height="76dp"
+        android:layout_gravity="right"
+        android:layout_weight="0.27"
+        ads:srcCompat="@drawable/tankimage" />
+
+
+</LinearLayout>

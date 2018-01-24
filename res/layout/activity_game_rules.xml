@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="rcoleman.rasmussencollege.com.warera.GameRules">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:background="#ffffff"
+        ads:srcCompat="@drawable/gametitle"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="-25dp"
+        android:layout_weight="0.03" />
+
+    <ImageButton
+        android:id="@+id/menuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:background="#ffffff"
+        ads:srcCompat="@drawable/menubutton"
+        android:layout_weight="0.09" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.03">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="* You need to conquer all the 9 zones in order to take the win. How you conquer the zones? By defeating the AI each time with your random units. That is if your units have more rank power than the ones from the AI."
+            android:textColor="#8c8b8b"
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Type of units and their points"
+            android:textColor="#8c8b8b"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==============================================="
+                android:textColor="#8c8b8b"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-HERO with hit poits of 100"
+                android:textColor="#8c8b8b"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="77dp"
+                android:background="#ffffff"
+                ads:srcCompat="@drawable/hero"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="-25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==============================================="
+                android:textColor="#8c8b8b"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-HEAVY ARTILLERY with hit poits of 500"
+                android:textColor="#8c8b8b"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="77dp"
+                android:background="#ffffff"
+                ads:srcCompat="@drawable/heavy_artillery"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="-25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==============================================="
+                android:textColor="#8c8b8b"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-LIGHT ARTILLERY with hit poits of 200"
+                android:textColor="#8c8b8b"/>
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="77dp"
+                android:background="#ffffff"
+                ads:srcCompat="@drawable/lightweight_artillery"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="-25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==============================================="
+                android:textColor="#8c8b8b"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The action buttons will give you extra points!"
+                android:textColor="#8c8b8b"/>
+
+        </LinearLayout>
+     </ScrollView>
+    </TableLayout>
+</LinearLayout>
