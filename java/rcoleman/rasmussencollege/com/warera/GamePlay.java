@@ -161,7 +161,7 @@ public class GamePlay extends AppCompatActivity
     }
     //++++++++++++++++++++++++++++++++++++
 
-    // Keep out with the points functions
+    // Keep up with the points functions
     private void ScorePoints()
     {
         // Adding the zones won by the player/user
