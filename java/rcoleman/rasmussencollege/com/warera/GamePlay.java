@@ -74,7 +74,7 @@ public class GamePlay extends AppCompatActivity
         PlayerPoints = (TextView) findViewById(R.id.userPoints);
         ImageView img= (ImageView) findViewById(R.id.outputImage);// image
 
-        // Making fame animation
+        // Making frame animation
         frame=(FrameLayout)findViewById(R.id.the_Frame);
         animSlideIn = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.slide_down);// calling animation xml file from anim folder!
         frame.startAnimation(animSlideIn);
